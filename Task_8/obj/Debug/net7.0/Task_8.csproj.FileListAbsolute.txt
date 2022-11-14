@@ -1,0 +1,15 @@
+D:\work\GeegBrains\C#\Task_8\bin\Debug\net7.0\Task_8.exe
+D:\work\GeegBrains\C#\Task_8\bin\Debug\net7.0\Task_8.deps.json
+D:\work\GeegBrains\C#\Task_8\bin\Debug\net7.0\Task_8.runtimeconfig.json
+D:\work\GeegBrains\C#\Task_8\bin\Debug\net7.0\Task_8.dll
+D:\work\GeegBrains\C#\Task_8\bin\Debug\net7.0\Task_8.pdb
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.csproj.AssemblyReference.cache
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.AssemblyInfoInputs.cache
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.AssemblyInfo.cs
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.csproj.CoreCompileInputs.cache
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.dll
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\refint\Task_8.dll
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.pdb
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\Task_8.genruntimeconfig.cache
+D:\work\GeegBrains\C#\Task_8\obj\Debug\net7.0\ref\Task_8.dll
