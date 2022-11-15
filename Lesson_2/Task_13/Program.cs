@@ -26,7 +26,6 @@ void getThree(int number) {
     int end = 0;
     int del = 10;
     int coll = 1;
-    int three = 0;
     
     if (number > 99)  {
         while (end != 1) {
@@ -38,22 +37,21 @@ void getThree(int number) {
                 }
                 coll++;
             } else {
-                if (coll == 3) {
-                    three = number % 10;
-                } else {
-                    if (coll == 4) three = (number / 10) % 10;
-                    if (coll == 5) three = (number / 100) % 10;
-                    if (coll == 6) three = (number / 1000) % 10;
-                    if (coll == 7) three = (number / 10000) % 10;
-                    if (coll == 8) three = (number / 100000) % 10;
-                    if (coll == 9) three = (number / 1000000) % 10;
-                    if (coll == 10) three = ((number / 10) / 1000000) % 10;
-                }
-
                 end++;
-                Console.WriteLine($"three number = {three}");
             }
         }
+
+        int[] array = new int[coll];
+        del = 10;
+
+        for (int i = 0; i < coll; i++) {
+            array[i] = number % 10;
+            if (number / 10 != 0) del = del * 10;
+            number = number / 10;
+        }
+
+        Console.WriteLine($"Третье число = {array[coll - 3]}");
+
     } else {
         Console.WriteLine("третьей цифры нет");
     }
