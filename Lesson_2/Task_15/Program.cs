@@ -7,7 +7,7 @@
 */
 
 int number = input();
-DoDay(number);
+Console.WriteLine(DoDay(number));
 
 
 int input() {
@@ -15,8 +15,11 @@ int input() {
     return inp;
 }
 
-void DoDay(int number) {
+string DoDay(int number) {
+    if (number < 1 || number > 7) return "Такого дня нет в неделе";
+
+
     if (number > 5 && number < 8) {
-        Console.WriteLine("да");
-    } else Console.WriteLine("нет");
+        return "да";
+    } else return "нет";
 }
