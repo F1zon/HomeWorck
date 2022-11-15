@@ -1,0 +1,5 @@
+D:\work\GeegBrains\C#\Lesson_2\Task_13\obj\Debug\net7.0\Task_13.csproj.AssemblyReference.cache
+D:\work\GeegBrains\C#\Lesson_2\Task_13\obj\Debug\net7.0\Task_13.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\GeegBrains\C#\Lesson_2\Task_13\obj\Debug\net7.0\Task_13.AssemblyInfoInputs.cache
+D:\work\GeegBrains\C#\Lesson_2\Task_13\obj\Debug\net7.0\Task_13.AssemblyInfo.cs
+D:\work\GeegBrains\C#\Lesson_2\Task_13\obj\Debug\net7.0\Task_13.csproj.CoreCompileInputs.cache
