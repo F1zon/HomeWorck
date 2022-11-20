@@ -25,7 +25,7 @@ if (number < 1) {
 }
 
 // Проверка и вывод ответа на проверку полиндрома
-Console.WriteLine(checkPolinom(number));
+Console.WriteLine(СheckPolinom(number));
 
 
 
@@ -36,7 +36,7 @@ Console.WriteLine(checkPolinom(number));
 
 // Функции
 // Проверка на полином
-string checkPolinom(int num) {
+string СheckPolinom(int num) {
     int copyNum = num; // Копия числа "num" для создания перевёртыша
     int shifter = 0;
     int n = 1;

@@ -21,15 +21,16 @@ double y2 = Convert.ToDouble(Console.ReadLine());
 double z2 = Convert.ToDouble(Console.ReadLine());
 
 
+// Вывод ответа
+double distance = Math.Round(Quarter(x1, y1, z1, x2, y2, z2), 2); // Метод Round - это метод округления к ближайшему числу или к ближайшему числу с заданным количеством знаков после запятой.
+Console.WriteLine($"Расстоягие между точками = {distance}");
+
+
+
 // Функция поиска расстояния
-double quarter (double x1, double y1, double z1, double x2, double y2, double z2) {
+double Quarter(double x1, double y1, double z1, double x2, double y2, double z2) {
     double sum = Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2);
     double distance = Math.Sqrt(sum);
 
     return distance;
 }
-
-
-// Вывод ответа
-double distance = Math.Round(quarter(x1, y1, z1, x2, y2, z2), 2); // Метод Round - это метод округления к ближайшему числу или к ближайшему числу с заданным количеством знаков после запятой.
-Console.WriteLine($"Расстоягие между точками = {distance}");
