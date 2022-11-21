@@ -25,7 +25,8 @@ if (number < 1) {
 }
 
 // Проверка и вывод ответа на проверку полиндрома
-Console.WriteLine(СheckPolinom(number));
+String result = СheckPolinom(number) ? "да" : "Нет";
+Console.WriteLine(result);
 
 
 
@@ -36,7 +37,7 @@ Console.WriteLine(СheckPolinom(number));
 
 // Функции
 // Проверка на полином
-string СheckPolinom(int num) {
+bool СheckPolinom(int num) {
     int copyNum = num; // Копия числа "num" для создания перевёртыша
     int shifter = 0;
     int n = 1;
@@ -53,5 +54,6 @@ string СheckPolinom(int num) {
         copyNum = copyNum / 10; 
     }
 
-    return shifter == num ? "Да" : "Нет";
+    bool result = shifter == num;
+    return result;
 }
