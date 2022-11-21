@@ -41,6 +41,7 @@ string СheckPolinom(int num) {
     int shifter = 0;
     int n = 1;
 
+
     while (copyNum / 10 != 0) { // Находим размер числа
         copyNum = copyNum / 10;
         n++;
@@ -49,9 +50,8 @@ string СheckPolinom(int num) {
 
     for (int i = 0; i < n; i++) { // Создаём перевёрнутую переменную
         shifter = shifter * 10 + copyNum % 10;
-        copyNum = copyNum / 10;
+        copyNum = copyNum / 10; 
     }
 
-    return shifter == num
-        ? "Да" : "Нет";
+    return shifter == num ? "Да" : "Нет";
 }

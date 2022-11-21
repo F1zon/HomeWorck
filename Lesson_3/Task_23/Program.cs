@@ -1,7 +1,7 @@
 ﻿/*
         Задача 23
 
-        Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+        Напишите программу, которая принимает на вход число (n) и выдаёт таблицу кубов чисел от 1 до n.
 
         5 ->
         1 | 1
@@ -15,15 +15,15 @@
 
 // Ввод данных
 Console.WriteLine("Введите число: ");
-int N = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
-if (N < 1) {
+if (n < 1) {
     Console.WriteLine("Нужно ввести число больше 0!!!!");
     Environment.Exit(0);
 }
 
 
- Console.WriteLine($"{N} -> ");
-for (int i = 1; i <= N; i++) {
+ Console.WriteLine($"{n} -> ");
+for (int i = 1; i <= n; i++) {
     Console.WriteLine($"{i} | {i * i * i}");
 }
