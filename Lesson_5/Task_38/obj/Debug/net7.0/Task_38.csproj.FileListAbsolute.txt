@@ -1,0 +1,15 @@
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.csproj.AssemblyReference.cache
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.AssemblyInfoInputs.cache
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.AssemblyInfo.cs
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.csproj.CoreCompileInputs.cache
+D:\work\GeegBrains\C#\Lesson_5\Task_38\bin\Debug\net7.0\Task_38.exe
+D:\work\GeegBrains\C#\Lesson_5\Task_38\bin\Debug\net7.0\Task_38.deps.json
+D:\work\GeegBrains\C#\Lesson_5\Task_38\bin\Debug\net7.0\Task_38.runtimeconfig.json
+D:\work\GeegBrains\C#\Lesson_5\Task_38\bin\Debug\net7.0\Task_38.dll
+D:\work\GeegBrains\C#\Lesson_5\Task_38\bin\Debug\net7.0\Task_38.pdb
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.dll
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\refint\Task_38.dll
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.pdb
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\Task_38.genruntimeconfig.cache
+D:\work\GeegBrains\C#\Lesson_5\Task_38\obj\Debug\net7.0\ref\Task_38.dll
